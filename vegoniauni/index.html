@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+
+<head>
+	<link rel="icon" type="image/png" href="./assets/img/fav/favicon1.png" sizes="16x16">
+	<title>VEGONIA University</title>
+
+	<!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+	<!-- fontawesome css1 -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- custom css -->
+	<link rel="stylesheet" type="text/css" href="./css/style.css"/>
+</head>
+<body>
+
+	<!-- Start Stick Note -->
+	<div class="sticknotes">
+		<a href="#aboutuss" class="aboutus">About</a>
+		<a href="#faq" class="pages">Pages</a>
+		<a href="#locations" class="news">News</a>
+		<a href="#subscribe" class="contact">Contact</a>
+	</div>
+	<!-- End Stick Note -->
+
+	<!-- Start Login Box  -->
+	<button id="open-btn" class="open-btn"><i class="fas fa-user"></i></button>
+	<div id="form-popup"  class="form-popup">
+		<form class="form-container" action="" method="">
+			<h6>Login Here!!!</h6>
+			<div class="form-group">
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email" class="" placeholder="Enter Email" autocomplete="off" required/>
+			</div>
+			<div class="form-group">
+				<label for="password">Password</label>
+				<input type="password" name="password" id="password" class="" placeholder="Enter Password" autocomplete="off" required/>
+			</div>
+			<div class="d-grid">
+				<button type="submit" class="btn btn-info btn-sm rounded-0 mb-2">Login</button>
+				<button type="submit" id="formclose-btn" class="btn btn-danger btn-sm rounded-0 mb-2">Close</button>
+			</div>
+		</form>
+	</div>
+	<!-- End Login Box  -->
+	
+
+<!-- Start Header Section -->
+<header>
+	<!-- start header intro -->
+	<div class="headerintros visiblelgs">
+		<div class="container infos">
+			<table>
+				
+					<td><i class="fas fa-phone"></i></td>
+					<td>+95 9 4220 4222 5</td>
+				
+			</table>
+
+			<table>
+				<tr class="headericons">
+					<td>FollowUs:</td>
+					<td><a href="javascript:void(0)" class="nav-link"><i class="fab fa-facebook-f"></i></a></td>
+					<td><a href="javascript:void(0)" class="nav-link"><i class="fab fa-instagram"></i></a></td>
+					<td><a href="javascript:void(0)" class="nav-link"><i class="fab fa-twitter"></i></a></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<!-- end header intro -->
+
+	<!-- start nav bar -->
+	<nav class="navbar navbar-expand-lg bg-light">
+		<a href="index.html" class="navbar-brand mx-3">
+			<img src="./assets/img/fav/favicon1.png" width="70px" alt="favicon1"/>
+			<span class="text-uppercase h2 mx-3">Vegonia <span class="h3">University</span></span>
+		</a>
+
+		<button class="navbar-toggler navbuttons" data-bs-toggle="collapse" data-bs-target="#mynav">
+			<div class="bg-dark lines1"></div>
+			<div class="bg-dark lines2"></div>
+			<div class="bg-dark lines3"></div>
+		</button>
+
+		<div id="mynav" class="navbar-collapse collapse justify-content-end text-uppercase fw-bolder mx-3">
+			<ul class="navbar-nav menustyles">
+				<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+				<li class="nav-item"><a href="#aboutuss" class="nav-link">Aboutus</a></li>
+				<li class="nav-item"><a href="#faculties" class="nav-link">Shortcode</a></li>
+				<li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
+				<li class="nav-item"><a href="#faq" class="nav-link">Pages</a></li>
+				<li class="nav-item"><a href="#locations" class="nav-link">News</a></li>
+				<li class="nav-item"><a href="#subscribe" class="nav-link">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+	<!-- end nav bar -->
+
+	<!-- start banner  -->
+
+	<div class="text-light text-md-end text-center banners">
+		<h5 class="display-4 bannerheaders">VEGONIA University</h5>
+		<p class="lead bannerparagraphs">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+		<a href="javascript:void(0);" class="btn btn-outline-light btn-lg rounded-0 banner-btn">View More</a>
+	</div>
+	<!-- end banner -->
+
+	<img src="./assets/img/etc/studentgroup2.png" class="d-none d-lg-block studentgroups" alt="studentgroup2"/>
+	<img src="./assets/img/etc/wave1.png" class="waves" alt="wave1"/>
+</header>
+
+<!-- End Header Section -->
+
+
+<!-- Start Students Counter Section -->
+<section class="py-3 counters">
+	<div class="container">
+
+		<div class="counteritems">
+			<i class="fas fa-users fa-3x"></i>
+			<div class="countervalues" data-target="95000"></div>
+			<h5>FOREIGN FOLLOWERS</h5>
+		</div>
+
+		<div class="counteritems">
+			<i class="fas fa-book-reader fa-3x"></i>
+			<div class="countervalues" data-target="20000"></div>
+			<h5>CLASSES COMPLETE</h5>
+		</div>
+
+		<div class="counteritems">
+			<i class="fas fa-user-tie fa-3x"></i>
+			<div class="countervalues" data-target="600"></div>
+			<h5>CERTIFIED TEACHERS</h5>
+		</div>
+
+		<div class="counteritems">
+			<i class="fas fa-trophy fa-3x"></i>
+			<div class="countervalues" data-target="350000"></div>
+			<h5>STUDENTS ENROLLED</h5>
+		</div>
+
+	</div>
+</section>
+<!-- End Students Counter Section -->
+
+<!-- Start About Us Section -->
+<section id="aboutuss" class="py-5 aboutuss">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6"></div>
+			<div class="col-sm-6 text-center text-light">
+				<h3 class="text-uppercase">get the coaching training !!!</h3>
+				<ul>
+					<li>Almost Free For Data Land Members.</li>
+					<li>Only 3 steps register with your DLt Student ID.</li>
+					<li>35 USD Cash Back for 5 Subjects.</li>
+				</ul>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+				<a href="javascript:void(0);" class="btn btn-primary rounded-0">Read More</a>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- End About Us Section -->
+
+<!-- Start Faculty Section -->
+<section id="faculties" class="py-2 faculties">
+	<div class="container text-light">
+		<!-- start title -->
+		<div class="row text-center">
+			<h4>Faculty Member</h4>
+		</div>
+		<!-- end title -->
+
+		<div class="container">
+			<div class="d-flex justify-content-center">
+
+				<div class="flip-cards">
+					<div class="flip-card-inners">
+						<div class="flip-card-fronts">
+							<img src="./assets/img/users/teacher1.jpg" alt="teacher1"/>
+						</div>
+						<div class="flip-card-backs pt-3">
+							<h3>Mr.Anton</h3>
+							<p>Russian Teacher</p>
+							<p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							<div class="socialicons">
+								<a href="javascript:void(0);" target="_blank"><i class="fab fa-facebook-f"></i></a>
+								<a href="javascript:void(0);" target="_blank"><i class="fab fa-instagram"></i></a>
+								<a href="javascript:void(0);" target="_blank"><i class="fab fa-twitter"></i></a>
+								<a href="javascript:void(0);" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="flip-cards">
+					<div class="flip-card-inners">
+						<div class="flip-card-fronts">
+							<img src="./assets/img/users/teacher2.jpg" alt="teacher2"/>
+						</div>
+						<div class="flip-card-backs pt-3">
+							<h3>Mr.Sai</h3>
+							<p>Financial Teacher</p>
+							<p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							<div class="socialicons">
+								<a href="javascript:void(0);" target="_blank"><i class="fab fa-facebook-f"></i></a>
+								<a href="javascript:void(0);" target="_blank"><i class="fab fa-instagram"></i></a>
+								<a href="javascript:void(0);" target="_blank"><i class="fab fa-twitter"></i></a>
+								<a href="javascript:void(0);" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="flip-cards">
+					<div class="flip-card-inners">
+						<div class="flip-card-fronts">
+							<img src="./assets/img/users/teacher3.jpg" alt="teacher3"/>
+						</div>
+						<div class="flip-card-backs pt-3">
+							<h3>Ms.July</h3>
+							<p>English Teacher</p>
+							<p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							<div class="socialicons">
+								<a href="javascript:void(0);" target="_blank"><i class="fab fa-facebook-f"></i></a>
+								<a href="javascript:void(0);" target="_blank"><i class="fab fa-instagram"></i></a>
+								<a href="javascript:void(0);" target="_blank"><i class="fab fa-twitter"></i></a>
+								<a href="javascript:void(0);" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="flip-cards">
+					<div class="flip-card-inners">
+						<div class="flip-card-fronts">
+							<img src="./assets/img/users/teacher4.jpg" alt="teacher4"/>
+						</div>
+						<div class="flip-card-backs pt-3">
+							<h3>Ms.Moe Moe</h3>
+							<p>Architect & Engineering Teacher</p>
+							<p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							<div class="socialicons">
+								<a href="javascript:void(0);" target="_blank"><i class="fab fa-facebook-f"></i></a>
+								<a href="javascript:void(0);" target="_blank"><i class="fab fa-instagram"></i></a>
+								<a href="javascript:void(0);" target="_blank"><i class="fab fa-twitter"></i></a>
+								<a href="javascript:void(0);" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+<!-- End Faculty Section -->
+
+<!-- Start Pricing Section -->
+<section id="pricings" class="py-5">
+	<div class="container">
+		<!-- Start Title -->
+		<div class="row text-center">
+			<div class="col">
+				<h4>Loved By Over 25,000 Students.</h4>
+				<p class="small">What our students say about us.</p>
+			</div>
+		</div>
+		<!-- End Title -->
+
+		<div class="row">
+			
+			<div class="col-md-3 col-sm-6 mb-3 pricingboxes">
+				<div class="price-headers">
+					<h3>Associate</h3>
+					<i>2 years/per month</i>
+				</div>
+				<h4 class="prices">$30</h4>
+				<ul class="list-unstyled price-items">
+					<li>Basic Grammer</li>
+					<li>Stragetic Management</li>
+					<li>Critical Reading</li>
+					<li>Journalism</li>
+					<li>Biotechnology</li>
+				</ul>
+				<a href="javascript:void(0);" class="btn btn-primary rounded-0">Apply Now</a>
+			</div>
+
+			<div class="col-md-3 col-sm-6 mb-3 pricingboxes">
+				<div class="price-headers">
+					<h3>Bachelor's Degree</h3>
+					<i>4 years/per month</i>
+				</div>
+				<h4 class="prices">$45</h4>
+				<ul class="list-unstyled price-items">
+					<li>Mathematic for teaching</li>
+					<li>Stragetic Management</li>
+					<li>Journalism</li>
+					<li>Financial Markets</li>
+					<li>Biotechnology</li>
+				</ul>
+				<a href="javascript:void(0);" class="btn btn-primary rounded-0">Apply Now</a>
+			</div>
+
+			<div class="col-md-3 col-sm-6 mb-3 pricingboxes">
+				<div class="price-headers">
+					<h3>Master's Degree</h3>
+					<i>3 years/per month</i>
+				</div>
+				<h4 class="prices">$70</h4>
+				<ul class="list-unstyled price-items">
+					<li>Journalism</li>
+					<li>Stragetic Management</li>
+					<li>Biotechnology</li>
+					<li>Mathematic for teachingJournalism</li>
+					<li>Basic Grammer</li>
+				</ul>
+				<a href="javascript:void(0);" class="btn btn-primary rounded-0">Apply Now</a>
+			</div>
+
+			<div class="col-md-3 col-sm-6 mb-3 pricingboxes">
+				<div class="price-headers">
+					<h3>Doctoral</h3>
+					<i>3 years/per month</i>
+				</div>
+				<h4 class="prices">$99</h4>
+				<ul class="list-unstyled price-items">
+					<li>Journalism</li>
+					<li>Critical Reading</li>
+					<li>Biotechnology</li>
+					<li>Stragetic Management</li>
+					<li>Biotechnology</li>
+				</ul>
+				<a href="javascript:void(0);" class="btn btn-primary rounded-0">Apply Now</a>
+			</div>
+
+		</div>
+	</div>
+</section>
+<!-- End Pricing Section -->
+
+<!-- Start Location Area Section -->
+<section id="locations" class="py-5">
+	<div class="container">
+
+		<!-- Start Title -->
+		<div class="row text-center">
+			<div class="col">
+				<h4>Meet All Our Locations.</h4>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+			</div>
+		</div>
+		<!-- End Title -->
+
+		<div class="row">
+
+			<div class="col-lg-3 col-sm-6 mb-3">
+				<div class="libcards">
+					<img src="./assets/img/post/01.jpg" alt="01"/>
+					<div class="libcontents">
+						<div>
+							<h5>Sample Location</h5>
+							<i class="small">our uni location</i>
+						</div>
+						<a href="javascript:void(0);" class="btn-infos">More Info</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-sm-6 mb-3">
+				<div class="libcards">
+					<img src="./assets/img/post/02.jpg" alt="02"/>
+					<div class="libcontents">
+						<div>
+							<h5>Sample Location</h5>
+							<i class="small">our uni location</i>
+						</div>
+						<a href="javascript:void(0);" class="btn-infos">More Info</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-sm-6 mb-3">
+				<div class="libcards">
+					<img src="./assets/img/post/03.jpg" alt="03"/>
+					<div class="libcontents">
+						<div>
+							<h5>Sample Location</h5>
+							<i class="small">our uni location</i>
+						</div>
+						<a href="javascript:void(0);" class="btn-infos">More Info</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-sm-6 mb-3">
+				<div class="libcards">
+					<img src="./assets/img/post/04.jpg" alt="04"/>
+					<div class="libcontents">
+						<div>
+							<h5>Sample Location</h5>
+							<i class="small">our uni location</i>
+						</div>
+						<a href="javascript:void(0);" class="btn-infos">More Info</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-sm-6 mb-3">
+				<div class="libcards">
+					<img src="./assets/img/post/05.jpg" alt="05"/>
+					<div class="libcontents">
+						<div>
+							<h5>Sample Location</h5>
+							<i class="small">our uni location</i>
+						</div>
+						<a href="javascript:void(0);" class="btn-infos">More Info</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-sm-6 mb-3">
+				<div class="libcards">
+					<img src="./assets/img/post/06.jpg" alt="06"/>
+					<div class="libcontents">
+						<div>
+							<h5>Sample Location</h5>
+							<i class="small">our uni location</i>
+						</div>
+						<a href="javascript:void(0);" class="btn-infos">More Info</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-sm-6 mb-3">
+				<div class="libcards">
+					<img src="./assets/img/post/07.jpg" alt="07"/>
+					<div class="libcontents">
+						<div>
+							<h5>Sample Location</h5>
+							<i class="small">our uni location</i>
+						</div>
+						<a href="javascript:void(0);" class="btn-infos">More Info</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-sm-6 mb-3">
+				<div class="libcards">
+					<img src="./assets/img/post/08.jpg" alt="08"/>
+					<div class="libcontents">
+						<div>
+							<h5>Sample Location</h5>
+							<i class="small">our uni location</i>
+						</div>
+						<a href="javascript:void(0);" class="btn-infos">More Info</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+<!-- End Location Area Section -->
+
+<!-- Start FAQ Section -->
+<section id="faq" class="py-5">
+	<div class="container-fluid">
+		<!-- Start Title -->
+		<div class="row text-center">
+			<div class="col">
+				<h4>Frequently asked questions<</h4>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+			</div>
+		</div>
+		<!-- End Title -->
+
+		<div class="row">
+			<div class="col-lg-7">
+				<div class="accordion">
+					<div class="accordion-item">
+						<div class="accordion-header">
+							<button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseone">How do I apply?</button>
+						</div>
+						<div id="collapseone" class="accordion-collapse collapse show">
+						    <div class="accordion-body">
+								<strong>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</strong> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<div class="accordion-header">
+							<button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapsetwo">What are entry requirement?</button>
+						</div>
+						<div id="collapsetwo" class="accordion-collapse collapse">
+						    <div class="accordion-body">
+								<strong>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</strong> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<div class="accordion-header">
+							<button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapsethree">What should I include in my personal statement?</button>
+						</div>
+						<div id="collapsethree" class="accordion-collapse collapse">
+						    <div class="accordion-body">
+								<strong>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</strong> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-5 text-center">
+				<img src="./assets/img/etc/studentgroup.png" width="400px" alt="studentgroup"/>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- End FAQ Section -->
+
+<!-- Start Features Section -->
+<section id="features" class="text-light py-5 features">
+	<div class="container">
+		<!-- Start Title -->
+		<div class="row text-center">
+			<div class="col">
+				<h4>Checked Out this features section.</h4>
+				<p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+			</div>
+		</div>
+		<!-- End Title -->
+
+		<div class="row text-center">
+			<div class="col-md-3 col-sm-12 feas">
+				<img src="./assets/img/icon/1.png" alt="1"/>
+				<h5>USER FOCUS COURSES</h5>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+			</div>
+			<div class="col-md-3 col-sm-12 feas">
+				<img src="./assets/img/icon/2.png" alt="2"/>
+				<h5>CLASSES ORGANIZATION</h5>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+			</div>
+			<div class="col-md-3 col-sm-12 feas">
+				<img src="./assets/img/icon/3.png" alt="3"/>
+				<h5>ONLINE CERTIFICATE TESTS</h5>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+			</div>
+			<div class="col-md-3 col-sm-12 feas">
+				<img src="./assets/img/icon/4.png" alt="4"/>
+				<h5>GET THE NEWS BY EMAIL</h5>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+			</div>
+			<div class="col-md-3 col-sm-12 feas">
+				<img src="./assets/img/icon/5.png" alt="5"/>
+				<h5>STUDY AT YOUR TIME</h5>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+			</div>
+			<div class="col-md-3 col-sm-12 feas">
+				<img src="./assets/img/icon/6.png" alt="6"/>
+				<h5>VIDEO TUTORIALS</h5>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+			</div>
+			<div class="col-md-3 col-sm-12 feas">
+				<img src="./assets/img/icon/7.png" alt="7"/>
+				<h5>COMMUNITY SUPPORT</h5>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+			</div>
+			<div class="col-md-3 col-sm-12 feas">
+				<img src="./assets/img/icon/8.png" alt="8"/>
+				<h5>FROM ANYWHERE YOU WANT</h5>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+			</div>
+	</div>
+</section>
+<!-- End Features Section -->
+
+<!-- Start Rating Section -->
+<section id="ratings" class="text-center py-3">
+	<div class="container">
+		<!-- Start Title -->
+		<div class="row text-center">
+			<div class="col">
+				<h4>Students graduate ready to work</h4>
+				<p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			</div>
+		</div>
+		<!-- End Title -->
+
+		<div class="row">
+			
+			<div class="col-md-4 col-sm-12">
+				<div id="piechart"></div>
+			</div>
+
+			<div class="col-md-8 col-sm-12">
+				<span class="headings">Students Rating</span>
+				<i class="fas fa-star fills"></i>
+				<i class="fas fa-star fills"></i>
+				<i class="fas fa-star fills"></i>
+				<i class="fas fa-star fills"></i>
+				<i class="fas fa-star"></i>
+				<p>Rating avearge based on 5.7k reviews.</p>
+				<hr style="border:2px solid #999"/>
+
+				<div class="rows">
+
+					<div class="lefts">
+						<div>5 Stars</div>
+					</div>
+					<div class="middles">
+						<div class="bar-container">
+							<div class="bars-1"></div>
+						</div>
+					</div>
+					<div class="rights">
+						<div>320</div>
+					</div>
+
+					<div class="lefts">
+						<div>4 Stars</div>
+					</div>
+					<div class="middles">
+						<div class="bar-container">
+							<div class="bars-2"></div>
+						</div>
+					</div>
+					<div class="rights">
+						<div>165</div>
+					</div>
+
+					<div class="lefts">
+						<div>3 Stars</div>
+					</div>
+					<div class="middles">
+						<div class="bar-container">
+							<div class="bars-3"></div>
+						</div>
+					</div>
+					<div class="rights">
+						<div>38</div>
+					</div>
+
+					<div class="lefts">
+						<div>2 Stars</div>
+					</div>
+					<div class="middles">
+						<div class="bar-container">
+							<div class="bars-4"></div>
+						</div>
+					</div>
+					<div class="rights">
+						<div>11</div>
+					</div>
+
+					<div class="lefts">
+						<div>1 Stars</div>
+					</div>
+					<div class="middles">
+						<div class="bar-container">
+							<div class="bars-5"></div>
+						</div>
+					</div>
+					<div class="rights">
+						<div>47</div>
+					</div>
+
+
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+</section>
+<!-- End Rating Section -->
+
+<!-- Start Subscribe Section -->
+<section id="subscribe" class="p-5 subscribes">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-6 col-md-12">
+				<h5 class="display-4 text-white">Subscribe to our newsletter</h5>
+				<form class="forms" action="" method="">
+					<div class="input-group mb-2">
+						<i class="fas fa-user input-group-text"></i>
+						<input type="text" name="username" id="username" class="form-control" placeholder="Username"/>
+					</div>
+
+					<div class="input-group mb-2">
+						<i class="fas fa-envelope input-group-text"></i>
+						<input type="email" name="email" id="email" class="form-control" placeholder="Email"/>
+					</div>
+
+					<div class="input-group mb-2">
+						<i class="fas fa-key input-group-text"></i>
+						<input type="password" name="regpassword" id="regpassword" class="form-control" placeholder="Password"/>
+					</div>
+
+					<div class="form-check form-switch">
+						<input type="checkbox" name="accept" id="accept" class="form-check-input"/>
+						<label for="accept">I agree to get push notify.</label>
+					</div>
+
+					<div class="d-grid">
+						<button type="submit" class="btn btn-primary fw-bold text-uppercase rounded-0 p-2">Register Now</button>
+					</div>
+				</form>
+			</div>
+			<div class="col-lg-6 col-md-12 squareares">
+				<div class="sqboxes">
+					<div class="square"></div>
+					<div class="square"></div>
+					<div class="square"></div>
+					<div class="square"></div>
+					<div class="square"></div>
+					<div class="square"></div>
+					<div class="square"></div>
+					<div class="square"></div>
+					<div class="square"></div>
+					<div class="square"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- End Subscribe Section -->
+
+<!-- Start Footer Section -->
+<footer class="bg-dark px-5">
+	<div class="container-fluid">
+		<div class="row text-light py-4">
+			<div class="col-lg-3 col-md-6">
+				<h6 class="mb-3">Information</h6>
+				<ul class="list-unstyled">
+					<li><a href="javascript:void(0);" class="footerlinks">Home</a></li>
+					<li><a href="javascript:void(0);" class="footerlinks">About Us</a></li>
+					<li><a href="javascript:void(0);" class="footerlinks">Short Code</a></li>
+					<li><a href="javascript:void(0);" class="footerlinks">Structure</a></li>
+					<li><a href="javascript:void(0);" class="footerlinks">Pages</a></li>
+					<li><a href="javascript:void(0);" class="footerlinks">News</a></li>
+					<li><a href="javascript:void(0);" class="footerlinks">Contact</a></li>
+				</ul>
+			</div>
+
+			<div class="col-lg-3 col-md-6">
+				<h6 class="mb-3">Student Help</h6>
+				<ul class="list-unstyled">
+					<li><a href="javascript:void(0);" class="footerlinks">F.A.Q</a></li>
+					<li><a href="javascript:void(0);" class="footerlinks">Search Course</a></li>
+					<li><a href="javascript:void(0);" class="footerlinks">Latest Information</a></li>
+					<li><a href="javascript:void(0);" class="footerlinks">Specialist Info</a></li>
+				</ul>
+				<div class="footersocialicons">
+					<a href="javascript:void(0);" target="_blank"><i class="fab fa-facebook-f"></i></a>
+					<a href="javascript:void(0);" target="_blank"><i class="fab fa-instagram"></i></a>
+					<a href="javascript:void(0);" target="_blank"><i class="fab fa-twitter"></i></a>
+					<a href="javascript:void(0);" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-md-6">
+				<h6 class="mb-3">Instagram</h6>
+				<div class="instagrams">
+					<ul class="list-inline">
+						<li class="list-inline-item"><a href="javascript:void(0);"><img src="./assets/img/users/instagram1.jpg" alt="instagram1"/></a></li>
+						<li class="list-inline-item"><a href="javascript:void(0);"><img src="./assets/img/users/instagram2.jpg" alt="instagram2"/></a></li>
+						<li class="list-inline-item"><a href="javascript:void(0);"><img src="./assets/img/users/instagram3.jpg" alt="instagram3"/></a></li>
+					</ul>
+					<ul class="list-inline">
+						<li class="list-inline-item"><a href="javascript:void(0);"><img src="./assets/img/users/instagram4.jpg" alt="instagram4"/></a></li>
+						<li class="list-inline-item"><a href="javascript:void(0);"><img src="./assets/img/users/instagram5.jpg" alt="instagram5"/></a></li>
+						<li class="list-inline-item"><a href="javascript:void(0);"><img src="./assets/img/users/instagram6.jpg" alt="instagram6"/></a></li>
+					</ul>
+				</div>
+				
+			</div>
+
+			<div class="col-lg-3 col-md-6">
+				<h6 class="mb-3">We Accepted</h6>
+				<ul class="list-unstyled">
+					<li><a href="javascript:void(0);" class="footerlinks">Wire Transfer</a></li>
+					<li><a href="javascript:void(0);" class="footerlinks">Online Payments</a></li>
+					<li><a href="javascript:void(0);" class="footerlinks">VIA Payments By Embassy</a></li>
+				</ul>
+				<ul class="list-inline">
+					<li class="list-inline-item"><a href="javascript:void(0);"><img src="./assets/img/payment/visacard.png" alt="visacard"/></a></li>
+					<li class="list-inline-item"><a href="javascript:void(0);"><img src="./assets/img/payment/mastercard.png" alt="mastercard"/></a></li>
+					<li class="list-inline-item"><a href="javascript:void(0);"><img src="./assets/img/payment/americancard.png" alt="americancard"/></a></li>
+					<li class="list-inline-item"><a href="javascript:void(0);"><img src="./assets/img/payment/card.png" alt="card"/></a></li>
+					<li class="list-inline-item"><a href="javascript:void(0);"><img src="./assets/img/payment/descoverycard.png" alt="descoverycard"/></a></li>
+				</ul>
+			</div>
+		</div>
+
+
+		<div class="container">
+			<div class="text-light d-flex justify-content-between border-top pt-5">
+				<p>Copyright &copy; <span id="getyear"></span><a href="#" class="text-danger">Pro</a>All rights reserved.</p>
+				<ul class="list-unstyled">
+					<li><a href="#"><i class="fas fa-angle-up backtotop-btn"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	
+	</div>
+</footer>
+<!-- End Footer Section -->
+
+
+
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+<!-- jquery js1 -->
+<script src="./assets/libs/jquery-3.6.0.min.js" type="text/javascript"></script>
+
+<!-- google chart api js-1-->
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+	<!-- custom js -->
+<script src="./js/app.js" type="text/javascript"></script>
+</body>
+</html>
